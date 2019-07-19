@@ -1,7 +1,7 @@
 {
-	"name": "repo-name",
+	"name": "@jsdsl/abstract-list",
 	"version": "0.1.0",
-	"description": "Project description here.",
+	"description": "An abstraction of the list data structure.",
 	"main": "js/main",
 	"types": ".d.ts/main",
 	"files": [
@@ -18,15 +18,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/T99/repo-name.git"
+		"url": "git+https://github.com/jsdsl/abstract-list.git"
 	},
 	"keywords": [],
 	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/T99/repo-name/issues"
+		"url": "https://github.com/jsdsl/abstract-list/issues"
 	},
-	"homepage": "https://github.com/T99/repo-name#readme",
+	"homepage": "https://github.com/jsdsl/abstract-list#readme",
 	"devDependencies": {
 		"typescript": "latest",
 		"@types/jest": "latest",
@@ -36,5 +36,8 @@
 		"gulp-typescript": "latest",
 		"gulp-uglify-es": "latest",
 		"jest": "latest"
+	},
+	"dependencies": {
+		"iter-over": "^1.2.0"
 	}
 }
