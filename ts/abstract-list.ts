@@ -27,6 +27,16 @@ export abstract class AbstractList<E> {
 	
 	public abstract remove(element: E): void;
 	
+	public abstract size(): number;
+	
+	public abstract contains(element: E): boolean;
+	
+	public isEmpty(): boolean {
+		
+		return (this.size() === 0);
+		
+	}
+	
 	public abstract clear(): void;
 	
 	public abstract iterator(): IIterator<E>;
