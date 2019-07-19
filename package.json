@@ -2,6 +2,9 @@
 	"name": "@jsdsl/abstract-list",
 	"version": "0.1.0",
 	"description": "An abstraction of the list data structure.",
+	"publishConfig": {
+		"access": "public"
+	},
 	"main": "js/main",
 	"types": ".d.ts/main",
 	"files": [

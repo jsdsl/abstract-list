@@ -31,4 +31,6 @@ export abstract class AbstractList<E> {
 	
 	public abstract iterator(): IIterator<E>;
 	
+	public abstract toArray(): E[];
+	
 }

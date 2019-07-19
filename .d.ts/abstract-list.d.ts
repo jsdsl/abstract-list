@@ -6,4 +6,5 @@ export declare abstract class AbstractList<E> {
     abstract remove(element: E): void;
     abstract clear(): void;
     abstract iterator(): IIterator<E>;
+    abstract toArray(): E[];
 }
